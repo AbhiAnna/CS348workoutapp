@@ -1,0 +1,78 @@
+.workouts-container {
+    padding: 20px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.no-workouts {
+    font-style: italic;
+}
+
+.workout-date {
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.workout {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.workout-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.update {
+    background-color: #007bff;
+}
+
+.loader {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
